@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E130394230E8D30000DA872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E130393230E8D2F000DA872 /* Assets.xcassets */; };
+		3EE64AA322FA987700149841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE64AA222FA987700149841 /* AppDelegate.swift */; };
+		3EE64AA522FA987700149841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE64AA422FA987700149841 /* ViewController.swift */; };
+		3EE64AA822FA987700149841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE64AA622FA987700149841 /* Main.storyboard */; };
+		3EE64AAD22FA987A00149841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE64AAB22FA987A00149841 /* LaunchScreen.storyboard */; };
+		3EE64AB822FA987A00149841 /* WhereIsToiletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE64AB722FA987A00149841 /* WhereIsToiletTests.swift */; };
+		3EE64AC322FAECA500149841 /* JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE64AC222FAECA500149841 /* JsonObject.swift */; };
+		3EE64AC522FBBF0C00149841 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE64AC422FBBF0C00149841 /* Util.swift */; };
+		93C7D037D895206D23A2BB27 /* Pods_WhereIsToilet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC03767EA482A569C0798E20 /* Pods_WhereIsToilet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EE64AB422FA987A00149841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE64A9722FA987700149841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE64A9E22FA987700149841;
+			remoteInfo = WhereIsToilet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E130393230E8D2F000DA872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EE64A9F22FA987700149841 /* WhereIsToilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhereIsToilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE64AA222FA987700149841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE64AA422FA987700149841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EE64AA722FA987700149841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EE64AAC22FA987A00149841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EE64AAE22FA987A00149841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE64AB322FA987A00149841 /* WhereIsToiletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereIsToiletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE64AB722FA987A00149841 /* WhereIsToiletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsToiletTests.swift; sourceTree = "<group>"; };
+		3EE64AB922FA987A00149841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE64AC222FAECA500149841 /* JsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonObject.swift; sourceTree = "<group>"; };
+		3EE64AC422FBBF0C00149841 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		6C5457F17D8C7B59B62FEE3E /* Pods-WhereIsToilet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereIsToilet.debug.xcconfig"; path = "Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BF846CF5A25E3C56DB3EFE /* Pods-WhereIsToilet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereIsToilet.release.xcconfig"; path = "Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet.release.xcconfig"; sourceTree = "<group>"; };
+		AC03767EA482A569C0798E20 /* Pods_WhereIsToilet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereIsToilet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE64A9C22FA987700149841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C7D037D895206D23A2BB27 /* Pods_WhereIsToilet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE64AB022FA987A00149841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E33FBF5FD2889F43D38ADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC03767EA482A569C0798E20 /* Pods_WhereIsToilet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EE64A9622FA987700149841 = {
+			isa = PBXGroup;
+			children = (
+				3EE64AA122FA987700149841 /* WhereIsToilet */,
+				3EE64AB622FA987A00149841 /* WhereIsToiletTests */,
+				3EE64AA022FA987700149841 /* Products */,
+				F3A602C2CADF650067C1F485 /* Pods */,
+				17E33FBF5FD2889F43D38ADC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE64AA022FA987700149841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE64A9F22FA987700149841 /* WhereIsToilet.app */,
+				3EE64AB322FA987A00149841 /* WhereIsToiletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE64AA122FA987700149841 /* WhereIsToilet */ = {
+			isa = PBXGroup;
+			children = (
+				3EE64AA222FA987700149841 /* AppDelegate.swift */,
+				3EE64AA422FA987700149841 /* ViewController.swift */,
+				3E130393230E8D2F000DA872 /* Assets.xcassets */,
+				3EE64AA622FA987700149841 /* Main.storyboard */,
+				3EE64AAB22FA987A00149841 /* LaunchScreen.storyboard */,
+				3EE64AAE22FA987A00149841 /* Info.plist */,
+				3EE64AC222FAECA500149841 /* JsonObject.swift */,
+				3EE64AC422FBBF0C00149841 /* Util.swift */,
+			);
+			path = WhereIsToilet;
+			sourceTree = "<group>";
+		};
+		3EE64AB622FA987A00149841 /* WhereIsToiletTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE64AB722FA987A00149841 /* WhereIsToiletTests.swift */,
+				3EE64AB922FA987A00149841 /* Info.plist */,
+			);
+			path = WhereIsToiletTests;
+			sourceTree = "<group>";
+		};
+		F3A602C2CADF650067C1F485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5457F17D8C7B59B62FEE3E /* Pods-WhereIsToilet.debug.xcconfig */,
+				A8BF846CF5A25E3C56DB3EFE /* Pods-WhereIsToilet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE64A9E22FA987700149841 /* WhereIsToilet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE64ABC22FA987A00149841 /* Build configuration list for PBXNativeTarget "WhereIsToilet" */;
+			buildPhases = (
+				1C41F97D998644A2C3577E87 /* [CP] Check Pods Manifest.lock */,
+				3EE64A9B22FA987700149841 /* Sources */,
+				3EE64A9C22FA987700149841 /* Frameworks */,
+				3EE64A9D22FA987700149841 /* Resources */,
+				D3C56817E1C8045CCF7D01CC /* [CP] Embed Pods Frameworks */,
+				3B1EED06EF151B7B0E05B350 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereIsToilet;
+			productName = WhereIsToilet;
+			productReference = 3EE64A9F22FA987700149841 /* WhereIsToilet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EE64AB222FA987A00149841 /* WhereIsToiletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE64ABF22FA987A00149841 /* Build configuration list for PBXNativeTarget "WhereIsToiletTests" */;
+			buildPhases = (
+				3EE64AAF22FA987A00149841 /* Sources */,
+				3EE64AB022FA987A00149841 /* Frameworks */,
+				3EE64AB122FA987A00149841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE64AB522FA987A00149841 /* PBXTargetDependency */,
+			);
+			name = WhereIsToiletTests;
+			productName = WhereIsToiletTests;
+			productReference = 3EE64AB322FA987A00149841 /* WhereIsToiletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE64A9722FA987700149841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "송시온";
+				TargetAttributes = {
+					3EE64A9E22FA987700149841 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					3EE64AB222FA987A00149841 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 3EE64A9E22FA987700149841;
+					};
+				};
+			};
+			buildConfigurationList = 3EE64A9A22FA987700149841 /* Build configuration list for PBXProject "WhereIsToilet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE64A9622FA987700149841;
+			productRefGroup = 3EE64AA022FA987700149841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE64A9E22FA987700149841 /* WhereIsToilet */,
+				3EE64AB222FA987A00149841 /* WhereIsToiletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE64A9D22FA987700149841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE64AAD22FA987A00149841 /* LaunchScreen.storyboard in Resources */,
+				3E130394230E8D30000DA872 /* Assets.xcassets in Resources */,
+				3EE64AA822FA987700149841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE64AB122FA987A00149841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C41F97D998644A2C3577E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhereIsToilet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B1EED06EF151B7B0E05B350 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C56817E1C8045CCF7D01CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhereIsToilet/Pods-WhereIsToilet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE64A9B22FA987700149841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE64AC322FAECA500149841 /* JsonObject.swift in Sources */,
+				3EE64AA522FA987700149841 /* ViewController.swift in Sources */,
+				3EE64AA322FA987700149841 /* AppDelegate.swift in Sources */,
+				3EE64AC522FBBF0C00149841 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE64AAF22FA987A00149841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE64AB822FA987A00149841 /* WhereIsToiletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE64AB522FA987A00149841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE64A9E22FA987700149841 /* WhereIsToilet */;
+			targetProxy = 3EE64AB422FA987A00149841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EE64AA622FA987700149841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE64AA722FA987700149841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EE64AAB22FA987A00149841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE64AAC22FA987A00149841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE64ABA22FA987A00149841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EE64ABB22FA987A00149841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE64ABD22FA987A00149841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5457F17D8C7B59B62FEE3E /* Pods-WhereIsToilet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZRXU73Z8F;
+				INFOPLIST_FILE = WhereIsToilet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.mango.toilet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3EE64ABE22FA987A00149841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BF846CF5A25E3C56DB3EFE /* Pods-WhereIsToilet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NZRXU73Z8F;
+				INFOPLIST_FILE = WhereIsToilet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.mango.toilet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3EE64AC022FA987A00149841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UW7M6EEPV;
+				INFOPLIST_FILE = WhereIsToiletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = song.WhereIsToiletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhereIsToilet.app/WhereIsToilet";
+			};
+			name = Debug;
+		};
+		3EE64AC122FA987A00149841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2UW7M6EEPV;
+				INFOPLIST_FILE = WhereIsToiletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = song.WhereIsToiletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhereIsToilet.app/WhereIsToilet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE64A9A22FA987700149841 /* Build configuration list for PBXProject "WhereIsToilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE64ABA22FA987A00149841 /* Debug */,
+				3EE64ABB22FA987A00149841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE64ABC22FA987A00149841 /* Build configuration list for PBXNativeTarget "WhereIsToilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE64ABD22FA987A00149841 /* Debug */,
+				3EE64ABE22FA987A00149841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE64ABF22FA987A00149841 /* Build configuration list for PBXNativeTarget "WhereIsToiletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE64AC022FA987A00149841 /* Debug */,
+				3EE64AC122FA987A00149841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE64A9722FA987700149841 /* Project object */;
+}
